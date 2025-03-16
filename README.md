@@ -14,6 +14,10 @@
   </a>
 </p>
 
+<div align="center">
+  <img src="images/product_showcase.gif" alt="Career Canvas Demo" width="100%">
+</div>
+
 ## 📖 Description
 
 Welcome to Career Canvas – your all-in-one AI-driven platform that revolutionizes the job application experience. Struggling with resume writing, cover letter creation, or interview preparation? Career Canvas eliminates these challenges by harnessing cutting-edge language models to transform your professional journey.
