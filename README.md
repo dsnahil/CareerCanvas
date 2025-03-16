@@ -4,7 +4,7 @@
   
 # Career Canvas
 
-### Your Job Delivery App
+### Your Canvas to Craft Your Dream Career
 
 </div>
 
@@ -20,9 +20,9 @@
 
 ## 📖 Description
 
-Welcome to Career Canvas – your all-in-one AI-driven platform that revolutionizes the job application experience. Struggling with resume writing, cover letter creation, or interview preparation? Career Canvas eliminates these challenges by harnessing cutting-edge language models to transform your professional journey.
+Welcome to Career Canvas – where crafting your dream career becomes a creative experience. Imagine opening the app and instantly having powerful AI tools at your fingertips to transform your job search journey. With just a few clicks, you can generate a professional resume tailored to your target position, create a compelling cover letter that highlights your unique skills, and prepare for interviews through realistic practice sessions.
 
-Our platform serves as your personal career assistant, converting your work history and qualifications into compelling, employer-focused documents. The sophisticated interview simulator goes beyond basic preparation, offering dynamic practice environments that mirror real-world scenarios, helping you refine your responses and build the confidence needed to excel in actual interviews. With Career Canvas, you're not just applying for jobs – you're strategically positioning yourself for career success.
+As you use Career Canvas, you'll experience a seamless workflow where your professional history transforms into employer-ready documents through our intuitive drag-and-drop interface. The keyword optimization feature automatically identifies and incorporates industry-specific terms that help your resume pass ATS screening systems. When interview day approaches, practice with our AI-powered interview simulator that provides real-time feedback on your responses. Review your performance analytics to track improvement and receive suggestions to strengthen your application materials. With multi-format export options, you'll always have your polished documents ready to share in the format employers prefer. Career Canvas doesn't just help you apply for jobs – it empowers you to strategically craft your professional narrative for career success.
 
 ## ✨ Features
 
@@ -63,7 +63,7 @@ Our platform serves as your personal career assistant, converting your work hist
 
 ### Setup for development
 
-1. Install dependencies and setup everyhing:
+1. Install dependencies and setup everything:
    ```bash
    yarn setup
    ```
@@ -113,19 +113,19 @@ On a Snapdragon computer:
 
 ## 🏃‍♂️ Running the Application
 
-### Development Mode
+### Development Mode (Run all from the root folder)
 
-1. Start the server:
+1. Start the server: (To boot the server locally)
    ```bash
    yarn dev:server
    ```
 
-2. Start the frontend:
+2. Start the frontend: (To boot the frontend locally)
    ```bash
    yarn dev:frontend
    ```
 
-3. Start the document collector:
+3. Start the document collector: (To then run the document collector)
    ```bash
    yarn dev:collector
    ```
@@ -136,7 +136,6 @@ On a Snapdragon computer:
 
 2. If you encounter connection issues:
    - Ensure LM Studio is running and the API server is enabled
-   - Verify the API URL in your `.env` file matches the one in LM Studio
    - Check that your model is properly loaded in LM Studio
    - For Snapdragon systems, try restarting LM Studio with fewer CPU threads
 
@@ -149,10 +148,21 @@ On a Snapdragon computer:
 
 ## 🔗 References
 
+### Technologies Powering Career Canvas
+
 - [LangChain Documentation](https://js.langchain.com/docs/)
-- [Vector Database Resources](https://github.com/lancedb/lancedb)
+- [LanceDB Vector Database](https://github.com/lancedb/lancedb)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [LM Studio Documentation](https://lmstudio.ai/docs/)
+- [Prisma ORM Documentation](https://www.prisma.io/docs)
+- [Vite Build Tool](https://vitejs.dev/guide/)
+- [Tailwind CSS Framework](https://tailwindcss.com/docs)
+- [Recharts Visualization Library](https://recharts.org/en-US/)
+- [Express.js Framework](https://expressjs.com/)
+- [Puppeteer Web Scraping](https://pptr.dev/)
+- [Node.js Runtime](https://nodejs.org/en/docs/)
+- [OpenAI API Documentation](https://platform.openai.com/docs/)
+- [Yarn Package Manager](https://yarnpkg.com/getting-started)
 
 ## 📄 License
 
