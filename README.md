@@ -6,6 +6,8 @@
 
 ### Your Canvas to Craft Your Dream Career
 
+<p><strong>Snapdragon Optimized 100% Local Edge AI</strong></p>
+
 </div>
 
 <p align="center">
