@@ -1,0 +1,9 @@
+-- CreateTable
+CREATE TABLE "ResumeSubmission" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "resumeFileName" TEXT NOT NULL,
+    "resumeData" BLOB NOT NULL,
+    "jobDescription" TEXT NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "lastUpdatedAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
