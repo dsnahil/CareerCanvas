@@ -52,8 +52,8 @@ Our platform serves as your personal career assistant, converting your work hist
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SDBrands/anyllm.git
-   cd anyllm
+   git clone https://github.com/javienc/careercanvas
+   cd careercanvas
    ```
 
 2. Set up environment variables:
