@@ -49,8 +49,8 @@ Our platform serves as your personal career assistant, converting your work hist
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
-- Yarn package manager
+- Node.js (v22 or higher)
+- Yarn package manager (Use 'npm install yarn -g' to install yarn)
 - LM Studio (for local language model support)
 
 ### Installation
@@ -61,23 +61,11 @@ Our platform serves as your personal career assistant, converting your work hist
    cd careercanvas
    ```
 
-2. Set up environment variables:
+### Setup for development
+
+1. Install dependencies and setup everyhing:
    ```bash
    yarn setup
-   ```
-   This will create the necessary `.env` files in each application section. Make sure to fill them out before proceeding.
-
-3. Install dependencies:
-   ```bash
-   cd server && yarn
-   cd ../collector && yarn
-   cd ../frontend && yarn
-   cd ..
-   ```
-
-4. Set up the database:
-   ```bash
-   yarn prisma:setup
    ```
 
 ## 🤖 Setting Up LM Studio
@@ -107,20 +95,12 @@ Career Canvas requires a running LM Studio model for optimal performance. Follow
    - Toggle "Enable local API server"
    - Note the API URL (typically http://localhost:1234)
 
-5. Update your Career Canvas environment variables:
-   - In your server's `.env` file, add:
-     ```
-     LMSTUDIO_BASE_PATH=http://localhost:1234
-     LMSTUDIO_MODEL_PREF=<your-loaded-model-name>
-     LMSTUDIO_MODEL_TOKEN_LIMIT=<model-context-window-size>
-     ```
-   - For Snapdragon computers, set a conservative token limit (e.g., 4096) to optimize performance
+5. Connecting the local llm by click the setting icon on the bottom left and select LM Studio as the LLM provider
 
 6. Keep LM Studio running while using Career Canvas.
 
 ### Snapdragon-Specific Optimizations
-
-If you're running on a Snapdragon computer:
+On a Snapdragon computer:
 
 1. Ensure you're using LM Studio 0.3.10 or newer which has specific ARM/Snapdragon optimizations.
 
@@ -148,18 +128,6 @@ If you're running on a Snapdragon computer:
 3. Start the document collector:
    ```bash
    yarn dev:collector
-   ```
-
-### Production Mode
-
-1. Build the frontend:
-   ```bash
-   yarn prod:frontend
-   ```
-
-2. Start the server:
-   ```bash
-   yarn prod:server
    ```
 
 ### Verifying LM Studio Connection
