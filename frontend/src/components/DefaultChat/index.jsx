@@ -45,7 +45,7 @@ export default function DefaultChatContainer() {
       <div className="flex flex-col items-center justify-center h-full p-4 md:p-8">
         <div className="max-w-3xl w-full bg-theme-bg-primary rounded-xl p-6 shadow-sm border border-theme-sidebar-border">
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-theme-text-primary mb-2">Welcome to AnyLLM</h1>
+            <h1 className="text-3xl font-bold text-theme-text-primary mb-2">Welcome to CareerCanvas</h1>
             <p className="text-theme-text-secondary">Your personal AI assistant platform</p>
           </div>
           

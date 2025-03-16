@@ -5,7 +5,7 @@
 import { ensureAbsoluteUrl, getServerUrl } from './api';
 import { showToast } from './toast';
 
-const STORAGE_KEY = 'anyllm_interview_recordings';
+const STORAGE_KEY = 'CareerCanvas_interview_recordings';
 
 /**
  * Save a recording to local storage
