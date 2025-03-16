@@ -2,9 +2,11 @@
 
 <div align='center'>
   
-# Career Canvas
+# Career Canvas - AI-Powered Job Search & Application Toolkit
 
-### Your Canvas to Craft Your Dream Career
+## Qualcomm Technologies x Northeastern University Hackathon Project
+
+
 
 <p><strong>Snapdragon Optimized 100% Local Edge AI</strong></p>
 
