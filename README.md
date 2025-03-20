@@ -6,8 +6,6 @@
 
 ## Qualcomm Technologies x Northeastern University Hackathon Project
 
-
-
 <p><strong>Snapdragon Optimized 100% Local Edge AI</strong></p>
 
 </div>
@@ -40,6 +38,9 @@ As you use Career Canvas, you'll experience a seamless workflow where your profe
 - 🤖 **AI-Powered Feedback** - Get real-time suggestions to improve your resume and cover letter content
 - 🔍 **Keyword Optimization** - Ensure your documents contain relevant industry keywords for better visibility
 - 🌐 **Multi-format Export** - Download your documents in various formats (PDF, DOCX, etc.)
+
+![_- visual selection (3)](https://github.com/user-attachments/assets/c48781ce-ae88-4b2e-82dd-69b6bc4fe8bd)
+
 
 ## 👨‍💻 Developers
 
